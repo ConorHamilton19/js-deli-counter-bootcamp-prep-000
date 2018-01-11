@@ -12,3 +12,11 @@ if (katzDeliLine.length>0){
 else {
   return "There is nobody waiting to be served!"}
 }
+
+function currentLine(){
+  if (katzDeliLine.length>0)
+    return `The line is currently: 1. ${[i]}, 2. ${[i]}`
+ else{
+   return 'The line is currently empty.'
+ }   
+}
