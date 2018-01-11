@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
 if (katzDeliLine.length>0){
   
-  returnkatzDeliLine.shift()`Currently serving ${katzDeliLine[0]}.`
+  return katzDeliLine.shift()`Currently serving ${katzDeliLine[0]}.`
 }
   
 else {
